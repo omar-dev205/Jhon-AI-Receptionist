@@ -1,0 +1,9 @@
+flask
+flask-cors
+python-telegram-bot
+groq
+python-dotenv
+gspread
+google-auth
+pyopenssl
+edge-tts

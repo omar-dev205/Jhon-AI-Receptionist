@@ -1,0 +1,27 @@
+# Secrets — never commit these to GitHub
+.env
+.env.*
+!.env.example
+service_account.json
+credentials.json
+*.pem
+*.key
+*.crt
+
+# Database + runtime state (real patient data lives here)
+*.db
+*.sqlite
+*.sqlite3
+cutoff_fired.json
+exports/
+
+# Voice clips
+_voice_*.ogg
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.log
+.DS_Store
